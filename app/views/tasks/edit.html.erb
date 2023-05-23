@@ -1,5 +1,3 @@
-<h1>CREATE A NEW TASK</h1>
-
 <%= form_with model: @task do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
@@ -9,3 +7,4 @@
   <%= f.check_box :completed %>
   <%= f.submit %>
 <% end %>
+

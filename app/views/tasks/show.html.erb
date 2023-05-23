@@ -2,3 +2,11 @@
 
 <h3><%= @task.title %></h3>
 <p><%= @task.details %></p>
+
+<div>
+  <%= link_to "Tasks list", tasks_path  %>
+</div>
+
+<div>
+  <%= link_to "Edit task", edit_path(@task)  %>
+</div>
